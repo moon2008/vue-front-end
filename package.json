@@ -5,12 +5,26 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "eslint --ext .js,.ts,.tsx test/ src/"
   },
   "dependencies": {
+    "antd": "^4.13.0",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "bootstrap": "^4.6.0",
     "core-js": "^3.8.3",
+    "element-plus": "^1.0.2-beta.35",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "pkcs7": "^0.2.3",
+    "qs": "^6.7.0",
+    "video.js": "^6.13.0",
     "vue": "^3.0.4",
-    "vue-router": "^4.0.3"
+    "vue-draggable-next": "^2.0.1",
+    "vue-router": "^4.0.3",
+    "vue-video-player": "^5.0.2",
+    "vuedraggable": "^4.0.1",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -21,10 +35,22 @@
     "@vue/cli-service": "~5.0.0-alpha.5",
     "@vue/compiler-sfc": "^3.0.4",
     "@vue/eslint-config-standard": "^6.0.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^7.20.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-vue": "^7.2.0"
+    "eslint-plugin-vue": "^7.2.0",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.1.1",
+    "vue-cli-plugin-bootstrap-vue": "~0.7.0",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-cli-plugin-element-plus": "~0.0.13",
+    "vue-loader": "^16.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
   }
 }

@@ -1,0 +1,292 @@
+.header {
+  background: url(/images/headerbg.png) no-repeat;
+  height: 120px
+}
+
+.header .h2 {
+  letter-spacing: .5rem
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 3px
+}
+
+.nav-link-active,
+.nav-link:hover {
+  background-color: #2875c3 !important;
+  border-radius: 5px 5px 0 0
+}
+
+.footer-bg,
+.main-nav-bg {
+  background-color: #1e59a9 !important
+}
+
+.right-qr-code {
+  position: fixed;
+  top: 0;
+  left: 1320px;
+  height: 100%
+}
+
+.right-qr-code .qr-code {
+  text-align: center
+}
+
+.right-qr-code .qr-code img {
+  width: 100px;
+  height: 100px
+}
+
+.min-width-100 {
+  min-width: 100% !important
+}
+
+.yahei {
+  font-family: Microsoft YaHei
+}
+
+body {
+  font-family: "\5B8B\4F53", Microsoft YaHei, Hiragino Sans GB, Hiragino Sans GB W3, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.image-cover {
+  -o-object-fit: cover !important;
+  object-fit: cover !important
+}
+
+.my-carousel {
+  height: 260px
+}
+
+.slide {
+  width: 100%;
+  position: relative;
+  height: 262px
+}
+
+.slide-bottom {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 10px
+}
+
+.slide-bottom>.slide-tag {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-right: auto;
+  letter-spacing: 2px;
+  font-size: 14px
+}
+
+.card-header-more {
+  font-size: 10px;
+  color: #000;
+  line-height: 12px
+}
+
+.separator {
+  display: inline-block;
+  background-color: #00f;
+  width: 6px;
+  height: 28px;
+  margin-right: 10px
+}
+
+.notice li:hover {
+  cursor: pointer;
+  color: #00f
+}
+
+.test {
+  width: 60%
+}
+
+.bg-black-f {
+  background-color: #1c2d3f
+}
+
+.card-header h3 {
+  font-size: 14px;
+  line-height: 16px;
+  color: #b91214;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 10px
+}
+
+.card-body li a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-family: "\5B8B\4F53";
+  font-size: 12px
+}
+
+.card-body li a:hover {
+  color: red;
+  text-decoration: underline
+}
+
+.list-group-item {
+  padding: 2px 1.25rem;
+  border: 0
+}
+
+.img-thumbnail.quiz-entry-box {
+  width: 24%;
+  text-align: center;
+  border: 0;
+  border-bottom: 2px solid orange;
+  background-color: #faebd7;
+  padding-bottom: 1rem;
+  cursor: pointer
+}
+
+.quiz-entry-box>img {
+  width: 100%
+}
+
+.quiz-entry-box:hover {
+  transform: translateY(-3px);
+  transition: .3s;
+  -webkit-transition: .3s
+}
+
+.quiz-entry-box .state {
+  display: block;
+  letter-spacing: 4px
+}
+
+.quiz-entry-box h4 {
+  color: rgba(185, 18, 20, .8);
+  font-size: 22px;
+  margin-top: 1rem;
+  letter-spacing: 2px
+}
+
+.relative-info {
+  background-size: 100% 100%;
+  background-repeat: no-repeat
+}
+
+.btn-relative-info {
+  border-radius: 2px;
+  background-color: rgba(255, 148, 0, .3);
+  color: #000;
+  font-weight: 700
+}
+
+.btn-relative-info:hover {
+  background-color: rgba(255, 148, 0, .8)
+}
+
+.card-header.bg-pic {
+  padding: .25rem 1.25rem;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0c2d64;
+  display: inline;
+  background: url(/images/card-header-bg.gif);
+  height: 34px
+}
+
+.card-header .nav-link {
+  color: #495057
+}
+
+.a-ellipsis li a,
+.fire-column-item span {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+
+.fire-column-item {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 182px;
+  margin-right: 1.5rem;
+  cursor: pointer
+}
+
+.fire-column-item img {
+  display: block;
+  width: 200px;
+  height: 150px
+}
+
+.fire-column-item span {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 12px
+}
+
+@media (max-width:320px) {
+  .img-thumbnail {
+    width: 100%
+  }
+}
+
+@media (min-width:321px)and (max-width:767px) {
+  .img-thumbnail {
+    width: 48%
+  }
+}
+
+@media (min-width:768px) and (max-width:1096px) {
+  .img-thumbnail {
+    width: 48%
+  }
+}
+
+.login-form {
+  width: 400px;
+  background-color: hsla(0, 0%, 100%, .8);
+  margin: 130px auto;
+  box-shadow: -2px 2px 4px 0 rgba(0, 0, 0, .04);
+  border-radius: 3px;
+  padding: 1px 0
+}
+
+.top-brand {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px
+}
+
+.top-brand span {
+  display: block;
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 1.5;
+  color: #212529
+}
+
+.form-content {
+  width: 300px;
+  margin: 0 auto
+}
+
+.img-content {
+  width: 100px;
+  overflow: hidden
+}
+
+.img-content img {
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px)
+}
+
+.forget-pwd {
+  font-size: 12px
+}
+ 
